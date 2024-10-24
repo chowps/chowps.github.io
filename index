@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #fff;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        nav a {
+            margin: 0 1rem;
+            padding: 1rem;
+            text-decoration: none;
+            color: #333;
+            border-bottom: 2px solid transparent;
+        }
+        nav a:hover {
+            border-bottom: 2px solid #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #555;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+        p, ul {
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 1.5rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#academic">Academic History</a>
+        <a href="#employment">Employment History</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Current Projects</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hi! I'm [Your Name], and this is my personal website. Here you'll find information about my academic and employment history, as well as my publications and current projects.</p>
+        </div>
+        <div id="academic" class="section">
+            <h2>Academic History</h2>
+            <ul>
+                <li><strong>University Name</strong> - Degree, Major (Year)</li>
+                <li><strong>University Name</strong> - Degree, Major (Year)</li>
+                <!-- Add more academic details as needed -->
+            </ul>
+        </div>
+        <div id="employment" class="section">
+            <h2>Employment History</h2>
+            <ul>
+                <li><strong>Company Name</strong> - Job Title (Year - Year)</li>
+                <li><strong>Company Name</strong> - Job Title (Year - Year)</li>
+                <!-- Add more employment details as needed -->
+            </ul>
+        </div>
+        <div id="publications" class="section">
+            <h2>Publications</h2>
+            <ul>
+                <li><strong>Title of Publication</strong> - Journal/Conference (Year)</li>
+                <li><strong>Title of Publication</strong> - Journal/Conference (Year)</li>
+                <!-- Add more publication details as needed -->
+            </ul>
+        </div>
+        <div id="projects" class="section">
+            <h2>Current Projects</h2>
+            <ul>
+                <li><strong>Project Name</strong> - Brief description of the project.</li>
+                <li><strong>Project Name</strong> - Brief description of the project.</li>
+                <!-- Add more project details as needed -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
